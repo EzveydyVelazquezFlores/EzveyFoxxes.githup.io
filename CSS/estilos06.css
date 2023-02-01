@@ -1,0 +1,426 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background: black;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    background: black;
+}
+
+.footer{
+    background: black;
+
+}
+
+#body{
+    color: white
+}
+
+.contenedor .menu{
+    background: #2d4055;
+    background: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+}
+
+.contenedor .logo{
+    background: #8a5455;
+    flex: 1 1 auto;
+}
+
+.contenedor .nav{
+    background: #8a5455;
+    flex: 5 1 auto;
+}
+
+.contenedor .social{
+    background: #ea5455;
+    flex: 1 1 auto;
+}
+
+.contenedor .principal{
+    background: #f07b3f;
+}
+
+.contenedor h1{
+    background: #ffd460;
+}
+
+.section{
+    display: flex;
+}
+
+.section .articulos{
+    background: #4e4e6a;
+    flex: 2 1 auto;
+    /*  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section .articulo{
+    background: #1f6cb0;
+    flex: 1 1 40%;
+}
+
+.section .navegacion{
+    background: #70a3C4;
+    flex: 1 1 100%;
+}
+
+.section .derecha{
+    background: #f73f52;
+    flex: 1 1 auto;
+}
+
+.section .publicidad{
+    background: #ffea85;
+}
+
+.footer .pie{
+    background: #ebaf2e;
+    width: 300px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and(max-width:800px){
+    .section{
+        flex-direction: column;
+    }
+    .contenedor .menu{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .contenedor .logo{
+        width: 100%;
+    }
+    .contenedor .nav{
+        width: 100%;
+    }
+    .contenedor .social{
+        width: 100%;
+    }
+    .aside{
+        display: flex;
+        justify-content: center;
+    }
+    .aside .publicidad{
+        width: 50%;
+    }
+    
+}
+
+
+/* Titulos y letra */
+
+h1{
+    font-size: 3.5em;
+}
+
+h2{
+    font-size: 2.7em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 1.25em
+}
+
+/* Termino de estilos de letra */
+
+a{
+    text-decoration: none;
+}
+
+
+button{
+    font-size: 1.5 em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(rgb(0, 0, 0.3));
+    box-shadow: 2px 2px 10px rgba(rgb(0, 0, 0.5));
+    color: white;
+    background-color: tomato;
+}
+
+button:hover{
+    background-color: rgba(154, 154, 154);
+}
+
+.contenedor3{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* cabecera */
+
+#he{
+    background-color: rgba(245, 245, 245);
+}
+
+#he.logo{
+    margin: 0px;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: maroon;
+    font-size: 3.6em;
+}
+
+#he.contenedor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#he nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#he a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#he a :hover{
+    color: blue;
+}
+
+
+/* Contenido de practica 4 */
+
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contenedor8{
+    display: flex;
+    flex-direction: column;
+}
+
+.header8{
+    background: url(../IMAGENES/768ed96dfcd34be59dd35287c781d80d_1659107840.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    /* Background: black; */
+    
+
+}
+
+.section8{
+    background: black;
+}
+
+.footer8{
+    background: black;
+
+}
+
+.contenedor8 .menu8{
+    /* background: #2d4055;
+    background: rgb(109, 65, 0); */
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenedor8 .principal{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor8 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3emem;
+    font-weight: 300;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenedor8 .logo8{
+    /* background: #8a5455; */
+    flex: 1 1 auto;
+}
+
+.contenedor8 .nav8 a{
+    color: white;
+}
+
+.nav8 a{
+    text-decoration: none;
+}
+
+.nav8 a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.contenedor8 .nav8{
+    /* background: #8a5455; */
+    flex: 5 1 auto;
+}
+
+.contenedor8 .social{
+    /* background: #ea5455; */
+    flex: 1 1 auto;
+    display: flex;
+}
+
+/* .contenedor .principal{
+    background: #f07b3f;
+} */
+
+/* .contenedor h1{
+    background: #ffd460;
+} */
+
+.section8{
+    display: flex;
+}
+
+.section8 .articulos{
+    background: #4e4e6a;
+    flex: 2 1 auto;
+    /*  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section8 .articulo{
+    background: #1f6cb0;
+    flex: 1 1 40%;
+}
+
+.section8 .navegacion{
+    background: #70a3C4;
+    flex: 1 1 100%;
+}
+
+.section8 .derecha{
+    background: #f73f52;
+    flex: 1 1 auto;
+}
+
+.section8 .publicidad{
+    background: #ffea85;
+}
+
+.footer8 .pie{
+    background: #ebaf2e;
+    width: 300px;
+}
+
+.footer8{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and(max-width:800px){
+    .section8{
+        flex-direction: column;
+    }
+    .contenedor8 .menu{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .contenedor8 .logo8{
+        width: 100%;
+    }
+    .contenedor8 .nav8{
+        width: 100%;
+    }
+    .contenedor8 .social{
+        width: 100%;
+    }
+    .aside{
+        display: flex;
+        justify-content: center;
+    }
+    .aside .publicidad{
+        width: 50%;
+    }
+    
+}
+
+#dos{
+    background-color: #4e4e6a;
+}
+
+@media  screen and (max-width:600px) {
+    .section8 .articulos{
+        flex-direction: column;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    .aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .aside .publicidad{
+        width: auto;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
