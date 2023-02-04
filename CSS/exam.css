@@ -1,0 +1,312 @@
+/* Global */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.contenedor{
+    padding: 5% 5%;
+    margin: 10% 10% 10% 10%;
+    background-color: bisque;
+}
+
+/* Menus */
+
+#menu{
+    padding: 2%;
+}
+
+#menu a{
+    padding: 2% 6% 2% 6%;
+    display: block;
+    float: right;
+    margin: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 210, 156);
+    color: rgb(75, 0, 0);
+}
+
+#menu a:hover{
+    background-color: rgb(154, 121, 73);
+}
+
+/* Texto primera*/
+
+#titulo{
+    background-color: rgb(154, 121, 73);
+    padding: 5%;
+}
+
+#titulo h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+    color: antiquewhite;
+    margin: 2%;
+}
+
+#eslogan{
+    padding: 8%;
+    margin: 2%;
+    background: url(../IMAGE/8f70354342f08b2629bb1356422806d0.jpg);
+}
+
+#eslogan h3{
+    text-align: center;
+    font-size: 2.5em;
+    color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Segunda:D */
+
+.section{
+    background: black;
+}
+
+.section{
+    display: flex;
+}
+
+.section .articulos{
+    background: #4e4e6a;
+    flex: 2 1 auto;
+    /*  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section .navegacion{
+    background: #70a3C4;
+    flex: 1 1 100%;
+}
+
+.section .derecha{
+    background: #f73f52;
+    flex: 1 1 auto;
+}
+
+.section .publicidad{
+    background: #ffea85;
+}
+
+.section{
+    display: flex;
+}
+
+.section .articulos{
+    background: #4e4e6a;
+    flex: 2 1 auto;
+    /*  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section .articulo{
+    background: #dcc862;
+    flex: 1 1 40%;
+}
+
+.section .navegacion{
+    background: #70a3C4;
+    flex: 1 1 100%;
+}
+
+.section .derecha{
+    background: #f73f52;
+    flex: 5 5 auto;
+}
+
+.section .publicidad{
+    background: #ffea85;
+}
+
+.articulo{
+    padding: 3%;
+}
+
+.navegacion{
+    padding: 2% 2% 2% 2%;
+    margin: 2% 2% 2% 2%;
+    background-color: #ffea85;
+}
+
+.navegacion a{
+    font-size: 2em;
+    color: #4e4e6a;
+    
+}
+
+.derecha .publicidad{
+    padding: 10% 8% 10% 8%;
+}
+
+
+@media screen and(max-width:800px){
+    .section{
+        flex-direction: column;
+    }
+    .contenedor .menu{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .contenedor .logo{
+        width: 100%;
+    }
+    .contenedor .nav{
+        width: 100%;
+    }
+    .contenedor .social{
+        width: 100%;
+    }
+    .aside{
+        display: flex;
+        justify-content: center;
+    }
+    .aside .publicidad{
+        width: 50%;
+    }
+    
+}
+
+
+@media  screen and (max-width:600px) {
+    .section .articulos{
+        flex-direction: column;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    .aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .aside .publicidad{
+        width: auto;
+    }
+    
+}
+
+/*  */
+#formu{
+    display: block;
+    float: center;
+    
+}
+
+#formu input{
+    width: 85%;
+    padding: 10% 10% 10% 10%;
+    margin: 5%;
+}
+
+#formu textarea{
+    width: 75%;
+    padding: 5% 5% 5% 5%;
+    margin: 5%;
+}
+
+#formu label{
+    text-decoration: solid;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section .formulario{
+    background: #1f6cb0;
+    justify-content: center;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    width: 50%;
+}
+.section .formulario .formulario1{
+    width: 100%;
+    justify-content: center;
+
+}
+.section .formulario .formulario1 form{
+    width: 90%;
+    justify-content: center;
+}
+.section .formulario .formulario1 label{
+    width: 90%;
+    justify-content: center;
+}
+.section .formulario .formulario1 input{
+    width: 90%;
+    justify-content: center;
+    border-color: white;
+}
+.section .formulario .formulario1 textarea{
+    width: 90%;
+    justify-content: center;
+}
+.section .formulario .formulario1 h1{
+    width: 90%;
+    text-align: center;
+    background: #b9d52c;
+}
+#btn_Enviar{
+    height: 30px;
+    background: #b9d52c;
+    color: #000000d7;
+    width: 45%;
+    display: flexbox;
+}
+#btn_Enviar:hover{
+    background: #8d0d60;
+}
+#btn_reset{
+    height: 30px;
+    background: #d5ab2c;
+    color: #000000d7;
+    width: 45%;
+    display: flexbox;
+}
+#btn_reset:hover{
+    background: #8d0d60;
+}
+
+/*  */
+
+
+
+
+
+#text{
+    background-color: azure;
+    padding: 2%;
+    margin: 3%;
+}
+
+#text h3{
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+/* Tercera */
+
+#formu{
+    padding: 3%;
+    margin: 2%;
+}
+
+#formu p{
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#formu input{
+    padding: 2%;
+}
+
+
+
